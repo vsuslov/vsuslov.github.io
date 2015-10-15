@@ -1,1 +1,12 @@
 <center><h1>Hello World!</h1></center>
+
+<script>
+  function User(name) {
+    this.sayHi=function() {
+      alert("Hi, I'm " + name);
+    };
+  }
+  
+  var vadim = new User("Vadim");
+  vadim.sayHi();
+</script>
